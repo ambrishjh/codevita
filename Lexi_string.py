@@ -12,4 +12,6 @@ for i in range(t):
     ans=""
     for j in a:
         ans+=p[j]
-    print(ans,end='') 
+    print(ans,end='')
+    if(i<t-1):
+        print()
